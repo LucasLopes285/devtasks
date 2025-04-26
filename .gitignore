@@ -1,0 +1,18 @@
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar logs
+*.log
+
+# Ignorar configurações de IDEs
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# Ignorar a pasta do Maven
+/target/
+
+# Ignorar sua classe com dados sensíveis
+src/main/java/com/lucas/devtasks/DatabaseConnection.java
